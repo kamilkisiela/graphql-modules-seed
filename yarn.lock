@@ -90,20 +90,20 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@graphql-modules/core@0.6.1":
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/@graphql-modules/core/-/core-0.6.1.tgz#29efe2f1a71cb35c023978adc3d7eefd9c7b1409"
-  integrity sha512-yuYPVZ5xpddIM1rTGLDqh0RAviZfw8S/XuVzoraUfZJHa0LCrks7EpfRyHjBZPpoxE7FJefM9gacThFW4of6Og==
+"@graphql-modules/core@0.6.6":
+  version "0.6.6"
+  resolved "https://registry.yarnpkg.com/@graphql-modules/core/-/core-0.6.6.tgz#fda48ac78dc9f9a51a6cfaebc6aa89fdf297bdc1"
+  integrity sha512-6qDwSdgIubewlUC2e8Leq6vUB/L3n+iTl+ezRO6UvAyp1TdlneFzrcjUmWr8vQURQPhPnc1BO3v8Fq5XKDPUWg==
   dependencies:
-    "@graphql-modules/di" "0.6.1"
-    graphql-toolkit "0.2.6"
+    "@graphql-modules/di" "0.6.6"
+    graphql-toolkit "0.2.7"
     graphql-tools "4.0.4"
     tslib "1.9.3"
 
-"@graphql-modules/di@0.6.1":
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/@graphql-modules/di/-/di-0.6.1.tgz#33c5e8bcd0ef1293104f6731bf187d4867a390d7"
-  integrity sha512-NEt/0LDtvnUhpGhrTD1nfFPbD05NcCN6Y2kObx1oLhcH5g30qnALRBOztf+5EOx1X06V5qR0YqZqgyff8QODlg==
+"@graphql-modules/di@0.6.6":
+  version "0.6.6"
+  resolved "https://registry.yarnpkg.com/@graphql-modules/di/-/di-0.6.6.tgz#68c7f0891a5ae631a7dea939d467c1bf49ef1c75"
+  integrity sha512-Z6ppgDAfptCLC4CgW0zTNdP4mobqCdSkRWn0ekKYihBFg6C+1oPEgphZRqqDA97DkA3cCPvCYmOiGIWW1kCo5A==
   dependencies:
     tslib "1.9.3"
 
@@ -1704,6 +1704,24 @@ graphql-toolkit@0.2.6:
     tslib "^1.9.3"
     valid-url "1.0.9"
 
+graphql-toolkit@0.2.7:
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/graphql-toolkit/-/graphql-toolkit-0.2.7.tgz#fbbeee537b0ed48c9c4be4e98b08c6cdb5fd5310"
+  integrity sha512-76C74agj4wtiAMIgxENdcgt86rSSDoSkZuvY6pZWCvHvuoI1n4R410QKO6muzA5lVZKZuF9gOBfVjhVHL002EQ==
+  dependencies:
+    aggregate-error "2.2.0"
+    deepmerge "3.2.0"
+    glob "7.1.3"
+    graphql-import "0.7.1"
+    graphql-tag-pluck "0.7.0"
+    graphql-tools "4.0.4"
+    is-glob "4.0.0"
+    is-valid-path "0.1.1"
+    lodash "4.17.11"
+    request "2.88.0"
+    tslib "^1.9.3"
+    valid-url "1.0.9"
+
 graphql-tools@4.0.4:
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/graphql-tools/-/graphql-tools-4.0.4.tgz#ca08a63454221fdde825fe45fbd315eb2a6d566b"
@@ -3094,10 +3112,10 @@ readdirp@^2.0.0, readdirp@^2.2.1:
     micromatch "^3.1.10"
     readable-stream "^2.0.2"
 
-reflect-metadata@0.1.12:
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.12.tgz#311bf0c6b63cd782f228a81abe146a2bfa9c56f2"
-  integrity sha512-n+IyV+nGz3+0q3/Yf1ra12KpCyi001bi4XFxSjbiWWjfqb52iTTtpGXmCCAOWWIAn9KEuFZKGqBERHmrtScZ3A==
+reflect-metadata@0.1.13:
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.13.tgz#67ae3ca57c972a2aa1642b10fe363fe32d49dc08"
+  integrity sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==
 
 regex-not@^1.0.0, regex-not@^1.0.2:
   version "1.0.2"

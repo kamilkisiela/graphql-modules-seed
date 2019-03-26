@@ -1,14 +1,18 @@
 import { Inject, Injectable } from '@graphql-modules/di';
 import { ChatDbObject, MessageDbObject } from "@models";
 import { CHATS, MESSAGES } from "@modules/common";
+import { CommonProvider } from "@modules/common/common.provider";
 
 @Injectable()
-export class MessagesProvider {
+export class MessagesProvider extends CommonProvider {
 
   constructor(
     @Inject(MESSAGES) private messages: MessageDbObject[],
     @Inject(CHATS) private chats: ChatDbObject[],
-  ) {}
+  ) {
+    super();
+    console.log('MessagesProvider');
+  }
 
   getMessages(chatId: number): MessageDbObject[] {
     return this.messages.filter(message => message.chatId === chatId);
